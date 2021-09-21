@@ -1,16 +1,12 @@
-class Example
-{
-  static private int x;
-  final private String name;
-  private int[] nums;
+class Example {
+  private int[] nums = {1, 2, 3, 4, 5, 6, 7, 8, 9};
 
-  boolean sameName(String other)
-  {
-    return other == name;
+  boolean sameName(String other) {
+    String name = "Shauryan";
+    return other.equals(name);
   }
 
-  public int[] getNums()
-  {
+  public int[] getNums() {
     return nums;
   }
 }  
