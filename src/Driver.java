@@ -15,6 +15,9 @@ class Driver {
     if (ex.sameName(myName)) {
       System.out.println("Same Name");
     }
+    else {
+      System.out.println("Not Same Name");
+    }
   }
 }
 

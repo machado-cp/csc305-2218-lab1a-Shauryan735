@@ -1,5 +1,5 @@
 class Example {
-  private int[] nums = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+  private final int[] nums = {1, 2, 3, 4, 5, 6, 7, 8, 9};
 
   boolean sameName(String other) {
     String name = "Shauryan";
